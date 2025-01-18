@@ -1,0 +1,7 @@
+main: me.rejomy.chest.Main
+name: Chest
+version: 1.0
+commands:
+  chest:
+    permission: chest.command
+    permission-message: You don`t have permission chest.command to perform the command.

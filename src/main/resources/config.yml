@@ -1,0 +1,27 @@
+chests:
+  example_chest:
+    amount: 1-3
+    respawn-seconds: 30-60
+    items:
+      - id: 322
+        amount: 1-5
+        name: "EGapple"
+        lore:
+          - "&3dDdDD"
+        data: 1
+      - id: 276
+        amount: 1
+      - id: 267
+        amount: 1-5
+        durability percent: 10-70
+        item flags:
+          - HIDE_ENCHANTS
+        enchants:
+          current:
+            - KNOCKBACK:1-2
+            - DAMAGE_ARTHROPODS:1-3
+            - DURABILITY:1-2
+            - FIRE_ASPECT:1
+            - DAMAGE_ALL:1-5
+          random: true
+          enchants-amount: 1-3
